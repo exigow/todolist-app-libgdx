@@ -37,7 +37,7 @@ local.properties
 #################
 ## Unused Assets
 #################
-\unused_assets
+.unused_assets/
 
 #################
 ## Visual Studio
