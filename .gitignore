@@ -35,6 +35,11 @@ local.properties
 .idea/
 
 #################
+## Unused Assets
+#################
+\unused_assets
+
+#################
 ## Visual Studio
 #################
 
