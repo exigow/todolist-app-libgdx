@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component jdk="Android 2.3.3 Platform" jdk_type="Android SDK">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="gdx.jar" scope="COMPILE">
+		<srcroot url="jar://$MODULE_DIR$/../todolist-libgdx/libs/gdx-sources.jar!/"/>
+		<relative-module-src project-related="jar://$PROJECT_DIR$/libs/gdx-sources.jar!/"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/gdx.jar!/"/>
+	</lib>
+	<lib name="gdx-backend-android.jar" scope="COMPILE">
+		<srcroot url="jar://$MODULE_DIR$/libs/gdx-backend-android-sources.jar!/"/>
+		<relative-module-src project-related="jar://$PROJECT_DIR$/../todolist-libgdx-android/libs/gdx-backend-android-sources.jar!/"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/../todolist-libgdx-android/libs/gdx-backend-android.jar!/"/>
+	</lib>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="gdx-backend-lwjgl.jar" scope="COMPILE">
+		<srcroot url="jar://$MODULE_DIR$/libs/gdx-backend-lwjgl-sources.jar!/"/>
+		<relative-module-src project-related="jar://$PROJECT_DIR$/../todolist-libgdx-desktop/libs/gdx-backend-lwjgl-sources.jar!/"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/../todolist-libgdx-desktop/libs/gdx-backend-lwjgl.jar!/"/>
+	</lib>
+	<lib name="gdx-backend-lwjgl-natives.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/../todolist-libgdx-desktop/libs/gdx-backend-lwjgl-natives.jar!/"/>
+	</lib>
+	<lib name="gdx-natives.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/../todolist-libgdx-desktop/libs/gdx-natives.jar!/"/>
+	</lib>
+</component>
